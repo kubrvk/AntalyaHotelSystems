@@ -121,38 +121,8 @@ export function HotelProvider({ children }) {
   };
 
   // ── Loading screen ────────────────────────────────────────────────────────────
-  if (loading) {
-    return (
-      <div style={{
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        height: '100vh', background: '#0a0f1e', fontFamily: 'Inter, sans-serif',
-      }}>
-        <div style={{ textAlign: 'center' }}>
-          <div style={{
-            width: 72, height: 72, borderRadius: 20,
-            background: 'linear-gradient(135deg, #1e3a5f, #2563eb)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            margin: '0 auto 20px',
-            boxShadow: '0 20px 40px rgba(37,99,235,0.3)',
-          }}>
-            <i className="ti ti-building-hotel" style={{ fontSize: 36, color: '#fff' }} />
-          </div>
-          <h1 style={{ margin: '0 0 6px', fontSize: 22, fontWeight: 700, color: '#e2e8f0' }}>
-            Antalya Hotel Systems
-          </h1>
-          <p style={{ margin: '0 0 20px', fontSize: 13, color: '#94a3b8' }}>
-            Yükleniyor, lütfen bekleyin...
-          </p>
-          <div style={{
-            width: 40, height: 40, border: '3px solid rgba(59,130,246,0.2)',
-            borderTop: '3px solid #3b82f6', borderRadius: '50%',
-            animation: 'spin 0.8s linear infinite', margin: '0 auto',
-          }} />
-          <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
-        </div>
-      </div>
-    );
-  }
+  // Removed global blocking loading screen to allow immediate render.
+  // Child components handle their own loading states.
 
   return (
     <HotelContext.Provider value={{
