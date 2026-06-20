@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
-  const year = new Date().getFullYear();
+  const year = 2018;
 
   return (
     <footer style={{ background: '#0f1c2e', color: '#94a3b8', padding: '64px 0 28px' }}>
@@ -25,7 +25,7 @@ export default function Footer() {
               </div>
               <p style={{ margin: 0, color: '#e2e8f0', fontWeight: 700, fontSize: 15 }}>Antalya Hotel</p>
             </div>
-            <p style={{ margin: '0 0 20px', fontSize: 13, lineHeight: 1.8, color: '#4b5563' }}>
+            <p style={{ margin: '0 0 20px', fontSize: 13, lineHeight: 1.8, color: '#94a3b8' }}>
               Akdeniz'in incisi Antalya'da lüks ve konforun buluştuğu nokta.
               Unutulmaz bir tatil deneyimi için sizleri bekliyoruz.
             </p>
@@ -71,9 +71,9 @@ export default function Footer() {
                 <Link
                   key={l.to}
                   to={l.to}
-                  style={{ color: '#4b5563', textDecoration: 'none', fontSize: 13, transition: 'color 0.2s' }}
+                  style={{ color: '#94a3b8', textDecoration: 'none', fontSize: 13, transition: 'color 0.2s' }}
                   onMouseEnter={e => { e.target.style.color = '#60a5fa'; }}
-                  onMouseLeave={e => { e.target.style.color = '#4b5563'; }}
+                  onMouseLeave={e => { e.target.style.color = '#94a3b8'; }}
                 >
                   {l.label}
                 </Link>
@@ -98,7 +98,7 @@ export default function Footer() {
               ].map(item => (
                 <div key={item.icon} style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
                   <i className={`ti ${item.icon}`} style={{ fontSize: 15, color: '#3b82f6', marginTop: 1, flexShrink: 0 }} />
-                  <span style={{ fontSize: 13, color: '#4b5563', lineHeight: 1.5 }}>{item.text}</span>
+                  <span style={{ fontSize: 13, color: '#94a3b8', lineHeight: 1.5 }}>{item.text}</span>
                 </div>
               ))}
             </div>
@@ -121,7 +121,7 @@ export default function Footer() {
               ].map(item => (
                 <div key={item.icon} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                   <i className={`ti ${item.icon}`} style={{ fontSize: 15, color: '#f59e0b', flexShrink: 0 }} />
-                  <span style={{ fontSize: 13, color: '#4b5563' }}>{item.text}</span>
+                  <span style={{ fontSize: 13, color: '#94a3b8' }}>{item.text}</span>
                 </div>
               ))}
             </div>
@@ -133,11 +133,11 @@ export default function Footer() {
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           flexWrap: 'wrap', gap: 12,
         }}>
-          <p style={{ margin: 0, fontSize: 12, color: '#374151' }}>
+          <p style={{ margin: 0, fontSize: 12, color: '#cbd5e1' }}>
             © {year} Antalya Hotel Systems. Tüm hakları saklıdır.
           </p>
           <div style={{ display: 'flex', gap: 16 }}>
-            <Link to="/admin/login" style={{ fontSize: 11, color: '#1f2937', textDecoration: 'none' }}>
+            <Link to="/admin/login" style={{ fontSize: 11, color: '#cbd5e1', textDecoration: 'none' }}>
               <i className="ti ti-lock" style={{ fontSize: 12, marginRight: 4 }} />
               Admin Paneli
             </Link>

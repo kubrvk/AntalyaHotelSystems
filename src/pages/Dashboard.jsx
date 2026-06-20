@@ -42,8 +42,8 @@ export default function Dashboard() {
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: 12, marginBottom: 24 }}>
         {stats.map(s => (
           <div key={s.label} style={{
-            background: "#fff", borderRadius: 10, padding: "16px",
-            border: "1px solid #e2e8f0",
+            background: "#fff", borderRadius: 12, padding: "16px",
+            border: "1px solid rgba(0,0,0,0.03)", boxShadow: "0 4px 12px rgba(0,0,0,0.03)"
           }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 8 }}>
               <span style={{ fontSize: 12, color: "#64748b" }}>{s.label}</span>
@@ -58,7 +58,7 @@ export default function Dashboard() {
 
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
         {/* Oda durumu */}
-        <div style={{ background: "#fff", borderRadius: 10, border: "1px solid #e2e8f0", padding: 20 }}>
+        <div style={{ background: "#fff", borderRadius: 12, border: "1px solid rgba(0,0,0,0.03)", boxShadow: "0 6px 16px rgba(0,0,0,0.04)", padding: 20 }}>
           <h2 style={{ fontSize: 14, fontWeight: 600, color: "#0c2340", margin: "0 0 16px" }}>Oda Durumları</h2>
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {Object.entries(STATUS_COLOR).map(([status, cfg]) => {
@@ -80,7 +80,7 @@ export default function Dashboard() {
         </div>
 
         {/* Son rezervasyonlar */}
-        <div style={{ background: "#fff", borderRadius: 10, border: "1px solid #e2e8f0", padding: 20 }}>
+        <div style={{ background: "#fff", borderRadius: 12, border: "1px solid rgba(0,0,0,0.03)", boxShadow: "0 6px 16px rgba(0,0,0,0.04)", padding: 20 }}>
           <h2 style={{ fontSize: 14, fontWeight: 600, color: "#0c2340", margin: "0 0 16px" }}>Son Rezervasyonlar</h2>
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {recent.length === 0 && <p style={{ color: "#94a3b8", fontSize: 13 }}>Henüz rezervasyon yok.</p>}

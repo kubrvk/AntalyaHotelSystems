@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Outlet, NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import HotelLogoMark from '../components/HotelLogoMark';
 
 const NAV_ITEMS = [
   { to: '/admin/dashboard',        icon: 'ti-layout-dashboard', label: 'Dashboard' },
@@ -49,7 +50,7 @@ export default function AdminLayout() {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             boxShadow: '0 4px 12px rgba(59,130,246,0.3)',
           }}>
-            <i className="ti ti-building-hotel" style={{ fontSize: 18, color: '#fff' }} />
+            <HotelLogoMark size={22} style={{ color: '#fff' }} />
           </div>
           {!collapsed && (
             <div style={{ overflow: 'hidden' }}>
@@ -73,7 +74,7 @@ export default function AdminLayout() {
                 padding: collapsed ? '13px 0' : '13px 18px',
                 justifyContent: collapsed ? 'center' : 'flex-start',
                 textDecoration: 'none',
-                color: isActive ? '#60a5fa' : '#64748b',
+                color: isActive ? '#60a5fa' : '#cbd5e1',
                 background: isActive ? 'rgba(59,130,246,0.12)' : 'transparent',
                 borderLeft: isActive ? '3px solid #3b82f6' : '3px solid transparent',
                 fontSize: 13, fontWeight: isActive ? 600 : 400,

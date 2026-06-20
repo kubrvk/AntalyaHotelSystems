@@ -172,8 +172,8 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer style={{ background: '#0a1628', color: '#475569', textAlign: 'center', padding: '32px 24px', fontSize: 14, borderTop: '1px solid rgba(255,255,255,0.05)' }}>
-        <p style={{ margin: 0 }}>© {new Date().getFullYear()} Antalya Hotel Systems. Tüm hakları saklıdır.</p>
+      <footer style={{ background: '#0a1628', color: '#cbd5e1', textAlign: 'center', padding: '32px 24px', fontSize: 14, borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+        <p style={{ margin: 0 }}>© 2018 Antalya Hotel Systems. Tüm hakları saklıdır.</p>
       </footer>
     </div>
   );

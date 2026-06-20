@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate, Navigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
+import HotelLogoMark from '../../components/HotelLogoMark';
 
 export default function UserRegister() {
   const { currentUser, userRegister } = useAuth();
@@ -63,7 +64,7 @@ export default function UserRegister() {
         <div style={{ textAlign: 'center', marginBottom: 32 }}>
           <Link to="/" style={{ textDecoration: 'none', display: 'inline-flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
             <div style={{ width: 64, height: 64, borderRadius: 18, background: 'linear-gradient(135deg, #1e3a5f, #2563eb)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 16px rgba(37,99,235,0.35)' }}>
-              <i className="ti ti-building-estate" style={{ fontSize: 30, color: '#fff' }} />
+              <HotelLogoMark size={38} style={{ color: '#fff' }} />
             </div>
             <span style={{ fontFamily: "'Outfit', sans-serif", fontSize: 18, fontWeight: 800, color: '#1e293b' }}>Antalya Hotel</span>
           </Link>

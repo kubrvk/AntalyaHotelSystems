@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
+import HotelLogoMark from '../HotelLogoMark';
 
 export default function Navbar() {
   const { currentUser, userLogout } = useAuth();
@@ -50,7 +51,7 @@ export default function Navbar() {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             boxShadow: '0 4px 12px rgba(37,99,235,0.25)',
           }}>
-            <i className="ti ti-building-hotel" style={{ fontSize: 21, color: '#fff' }} />
+            <HotelLogoMark size={25} style={{ color: '#fff' }} />
           </div>
           <div>
             <p style={{ margin: 0, fontWeight: 800, fontSize: 15, color: '#1e3a5f', lineHeight: 1.1 }}>
