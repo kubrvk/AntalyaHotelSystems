@@ -1,9 +1,9 @@
 # ANTALYA HOTEL MANAGEMENT
 
 <img align="left" width="40%" src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel1.PNG?raw=true"/>
-<h3> <a href="https://github.com/kubrvk/AntalyaHotelSystems"><img src="https://img.shields.io/badge/GitHub: https://github.com/kubrvk/AntalyaHotelSystems-000000?style=flat-square&logo=github&logoColor=white" height="25"/> </a></h3>
+<h3> <img src="https://img.shields.io/badge/Live Demo: https://antalyahotelsystems.firebaseapp.com-0c2b23?style=&logo=codecrafters&logoColor=white" height="25"/></a></h3>
 
-![](https://img.shields.io/badge/Web_App-09090b?style=) ![](https://img.shields.io/badge/Management-1e3a8a?style=) ![](https://img.shields.io/badge/Dashboard-047857?style=) ![React](https://img.shields.io/badge/React_18-61DAFB?style=logo=react&logoColor=black)  ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badges&logo=firebase&logoColor=black)  ![Status](https://img.shields.io/badge/Status-Shipped-success?style=for-the-badges) 
+![](https://img.shields.io/badge/Web_App-09090b?style=) ![](https://img.shields.io/badge/Management-1e3a8a?style=) ![](https://img.shields.io/badge/Dashboard-047857?style=) ![React](https://img.shields.io/badge/React_18-61DAFB?style=logo=react&logoColor=black)  ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badges&logo=firebas1&logoColor=black)  ![Status](https://img.shields.io/badge/Status-Shipped-success?style=for-the-badges) 
 <br>
 Antalya Hotel Management is a full-stack web application built entirely with React 18 and Firebase. The project features a public-facing customer website and a secure, real-time admin dashboard for managing boutique and mid-sized hotels.
 
