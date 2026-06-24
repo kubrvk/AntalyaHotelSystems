@@ -1,6 +1,6 @@
 # ANTALYA HOTEL MANAGEMENT
 
-<img align="left" width="40%" src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel1.PNG?raw=true"/>
+<img align="left" width="40%" src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel1.jpg?raw=true"/>
 <h3> <img src="https://img.shields.io/badge/Live Demo: https://antalyahotelsystems.firebaseapp.com-0c2b23?style=&logo=codecrafters&logoColor=white" height="25"/></a></h3>
 
 ![](https://img.shields.io/badge/Web_App-09090b?style=) ![](https://img.shields.io/badge/Management-1e3a8a?style=) ![](https://img.shields.io/badge/Dashboard-047857?style=) ![React](https://img.shields.io/badge/React_18-61DAFB?style=logo=react&logoColor=black)  ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badges&logo=firebas1&logoColor=black)  ![Status](https://img.shields.io/badge/Status-Shipped-success?style=for-the-badges) 
@@ -10,7 +10,7 @@ Antalya Hotel Management is a full-stack web application built entirely with Rea
 The application serves two distinct domains. The core engineering challenge was integrating real-time Firebase synchronization with offline persistence (IndexedDB), ensuring receptionists experience near-zero latency while managing room states, reservations, and customer check-ins during daily operations.
 <br clear="left"/>
 <p align="center">
-<img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel2.PNG?raw=true" width="24%"/><img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel3.PNG?raw=true" width="24%"/><img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel4.PNG?raw=true" width="24%"/><img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel5.PNG?raw=true" width="24%"/>
+<img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel2.jpg?raw=true" width="24%"/><img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel3.jpg?raw=true" width="24%"/><img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel4.jpg?raw=true" width="24%"/><img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel5.jpg?raw=true" width="24%"/>
 </p>
 
 ---
@@ -54,7 +54,7 @@ AntalyaHotelSystems/
 
 ### 1. Admin Dashboard & Analytics:
 
-![image](https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel6.PNG?raw=true)
+![image](https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel6.jpg?raw=true)
 
 The central hub for hotel staff and receptionists. It provides a comprehensive overview of the hotel's daily operations.
 
@@ -67,7 +67,7 @@ The central hub for hotel staff and receptionists. It provides a comprehensive o
 
 ### 2. Room Management Module:
 
-![image](https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel7.PNG?raw=true)
+![image](https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel7.jpg?raw=true)
 
 A comprehensive CRUD system for handling the hotel's physical inventory.
 
@@ -79,7 +79,7 @@ A comprehensive CRUD system for handling the hotel's physical inventory.
 
 ### 3. Reservation & Booking Engine:
 
-![image](https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel8.PNG?raw=true)
+![image](https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel8.jpg?raw=true)
 
 Handles the full lifecycle of a booking from customer request to final check-out.
 
@@ -92,8 +92,8 @@ Handles the full lifecycle of a booking from customer request to final check-out
 ### 4. Public-Facing Website:
 
 <p align="center">
-<img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel9.PNG?raw=true" width="49%"/>
-<img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel10.PNG?raw=true" width="49%"/>
+<img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel9.jpg?raw=true" width="49%"/>
+<img src="https://github.com/kubrvk/portfolio/blob/main/img/galeri/antalyahotel10.jpg?raw=true" width="49%"/>
 </p>
 
 The customer experience begins here. A highly polished, responsive interface designed to convert visitors into guests.
